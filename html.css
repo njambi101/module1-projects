@@ -1,0 +1,27 @@
+body{
+    width: 20cm;
+    height: 10cm;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+    align-items: center;
+   /* justify-content:flex-end;
+    align-items: center;
+
+    align-items: space-evenly;
+    flex-wrap: wrap;*/
+    
+}
+
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: #0071FF;
+    font-size: 40pt;
+    
+
+}
