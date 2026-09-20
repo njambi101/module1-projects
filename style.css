@@ -1,12 +1,37 @@
 * {
     text-align: center;
+    font-weight: 8000;
+    font-size: medium;
     
 }
-textarea{
+/*textarea{
     font-family: var(--base-font-family-default-latin);
     font-size: 100%;
 }
-
+*/
+.image{
+    border:1px solid gray;
+    background-color: rgb(208, 195, 195);
+    border-radius: 30%;
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    margin: 3px 300px 10px 10px;
+}
+.heads{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size:30px;
+   /* margin: 10px 240px 10px 90px;*/
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-right: 55px;
+    margin-left: 5px;
+}
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px 80px 30px 15px ;
+}
 .inputs {
     background-color: transparent;
     text-align: left;
@@ -21,10 +46,14 @@ textarea{
 }
 .quiz{
     color: blue;
-    font-weight: 700;
+    font-weight: 546;
     font-family: var(--base-font-family-default-latin);
     font-size: 100%;
-   
+    padding: 1px 10px 10px 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-right: 240px;
+    margin-left: 5px;
 }
 
 .button {
@@ -50,4 +79,13 @@ textarea{
     border: 1px solid black;
     border-radius: 12px;
     margin: 0px;
+}
+
+.quize{
+    font-family: var(--base-font-family-default-latin);
+    font-size: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 65px;
 }

@@ -1,16 +1,25 @@
 *{
+    text-align: center;
     background-color: antiquewhite;
     background-image: url(images.jpg);
     background-repeat: repeat-y;
     opacity: none;
     
 }
-div{
+/*div{
     text-align: justify;
     width: 200px;
     height: 200px;
     border: 1px solid black;
     padding: 10px;
     
+}
+    */
+p{
+    
+    margin-top: 100px;
+    margin-bottom: 100px ;
+    margin-right: 200px;
+    margin-left: 80px;
 }
 
