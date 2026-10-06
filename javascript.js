@@ -1,10 +1,30 @@
-const prep = [];
+function adds (i, l) {
+    return i + l
+}
+
+function modulos (v, u) {
+    return v % u
+}
+
+export {adds, modulos}
+
+
+
+
+
+
+
+
+
+
+
+/*const prep = [];
 function getListOfWagons (a) {
     prep.push(a)
     return prep
 }
     
-console.log(getListOfWagons(1, 2, 3, 4, 5))
+console.log(getListOfWagons(1, 2, 3, 4, 5))*/
 //getListOfWagons(1, 7, 12, 3, 14, 8, 5);
 
 
